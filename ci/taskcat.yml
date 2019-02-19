@@ -17,7 +17,7 @@ global:
   reporting: true
 tests:
   taskcat-json:
-    parameter_input: debug-input.json
+    parameter_input: input.json
     regions:
       - us-east-2
     template_file: createRDS.yml
