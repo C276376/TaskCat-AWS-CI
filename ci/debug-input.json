@@ -1,0 +1,66 @@
+[
+    {
+        "ParameterKey": "DBAllocatedStorage",
+        "ParameterValue": "20"
+    },
+    {
+        "ParameterKey": "StackName",
+        "ParameterValue": "TestStack"
+    },
+    {
+        "ParameterKey": "DBBackupRetentionPeriod",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "DBEngineVersion",
+        "ParameterValue": "9.6.5"
+    },
+    {
+        "ParameterKey": "DBInputCIDR",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "DBMasterUserPassword",
+        "ParameterValue": "testcatrds"
+    },
+    {
+        "ParameterKey": "DBInstanceClass",
+        "ParameterValue": "db.t2.small"
+    },
+    {
+        "ParameterKey": "DBMasterUsername",
+        "ParameterValue": "testcatrds"
+    },
+    {
+        "ParameterKey": "DBName",
+        "ParameterValue": "testcatrds"
+    },
+    {
+        "ParameterKey": "DBPortNumber",
+        "ParameterValue": "5432"
+    },
+    {
+        "ParameterKey":"DBSecurityGroupName",
+        "ParameterValue":"SG4gaurav"
+    },
+    {
+        "ParameterKey":"DBSubnetGroupName",
+        "ParameterValue":"SG3gaurav"
+    },
+    {
+        "ParameterKey":"DBSubnetOne",
+        "ParameterValue": "subnet-bc3f1bc7"
+    },
+       {
+        "ParameterKey": "DBSubnetTwo",
+        "ParameterValue": "subnet-d44b2d99"
+    },
+    {
+        "ParameterKey":"DBVPC",
+        "ParameterValue":"vpc-9bfbeaf2"
+    },
+    {
+        "ParameterKey":"MultiAZ",
+        "ParameterValue":"false"
+    },
+]
