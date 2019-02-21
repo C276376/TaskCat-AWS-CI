@@ -12,7 +12,7 @@ pipeline {
             steps{
                 sleep 20s
                 dir ("$WORKSPACE") {
-                    sh "$WORKSPACE/Invoketaskcat.sh;
+                    sh "$WORKSPACE/Invoketaskcat.sh"
                 }
             }
         }
