@@ -11,7 +11,7 @@ pipeline {
         stage('Initiating Taskcat') {
             steps{
                 dir ("$WORKSPACE") {
-                    sh ". /var/lib/jenkins/jobs/RDSDeployPipeline/jobs/RDSDeploy/workspace/setupenv.sh; /var/lib/jenkins/jobs/RDSDeployPipeline/jobs/RDSDeploy/workspace/rdscreate_jenb.sh"
+                    sh ". $WORKSPACE/Invoketaskcat.sh;
                 }
             }
         }
