@@ -12,11 +12,10 @@ pipeline {
         {
             steps
             {
-                sh """
-                        sleep 20s/
-                        cd $WORKSPACE"/
-                        taskcat -c ci/taskcat.yml/
-                   """
+                sh "sleep 20s"
+                sh "cd $WORKSPACE"
+                sh "taskcat -c ci/taskcat.yml"
+              
             }
         }
            
