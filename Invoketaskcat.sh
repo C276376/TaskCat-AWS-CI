@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
 echo "Inoking taskcat"
-taskcat -c $WORKSPACE/ci/taskcat.yml
+taskcat -c ci/taskcat.yml
