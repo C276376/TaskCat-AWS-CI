@@ -14,7 +14,7 @@ pipeline {
             {
                 sh "sleep 20s"
                 sh "cd $WORKSPACE"
-                sh "Invoketaskcat.sh"
+                sh "/var/lib/jenkins/workspace/test1/Invoketaskcat.sh"
               
             }
         }
