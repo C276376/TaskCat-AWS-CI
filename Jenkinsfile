@@ -8,6 +8,13 @@ pipeline {
                 sh "sleep 10s"
             }
         }
+        stage('Runing taskcat')
+        {
+            steps
+            {
+                sh "cd $WORKSPACE"
+            }
+        }
            
     
     }
