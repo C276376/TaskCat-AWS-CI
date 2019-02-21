@@ -14,7 +14,7 @@ pipeline {
             {
                 sh "sleep 20s"
                 sh "cd $WORKSPACE"
-                sh "taskcat -c ci/taskcat.yml"
+                sh "Invoketaskcat"
               
             }
         }
