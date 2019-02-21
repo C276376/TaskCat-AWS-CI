@@ -8,12 +8,7 @@ pipeline {
                 sh "sleep 10s"
             }
         }
-        stage('Initiating Taskcat') {
-            steps{
-               
-            }
-        }
-      
+           
     
     }
     post {
