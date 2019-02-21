@@ -219,28 +219,6 @@ Resources:
           - GroupId
     DependsOn: DBSubnetGroup
     DeletionPolicy: Snapshot
-  MasterDB1:
-    Type: 'AWS::RDS::DBInstance'
-    Properties:
-      DBName: rdsgaurav3
-      DBSubnetGroupName: !Ref DBSubnetGroupName
-      AllocatedStorage: !Ref DBAllocatedStorage
-      DBInstanceClass: !Ref DBInstanceClass
-      Engine: postgres
-      EngineVersion: !Ref DBEngineVersion
-      MasterUsername: rdsgaurav3
-      MasterUserPassword: rdsgaurav3
-      MultiAZ: !Ref MultiAZ
-      BackupRetentionPeriod: !Ref DBBackupRetentionPeriod
-      Tags:
-        - Key: Name
-          Value: PostgreSQL Master Database
-      VPCSecurityGroups:
-        - !GetAtt 
-          - DBEC2SecurityGroup
-          - GroupId
-    DependsOn: DBSubnetGroup
-    DeletionPolicy: Snapshot
 Outputs:
   MasterJDBCConnectionString:
     Description: JDBC connection string for the master database
