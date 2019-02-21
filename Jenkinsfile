@@ -10,10 +10,7 @@ pipeline {
         }
         stage('Initiating Taskcat') {
             steps{
-                sleep 20s
-                dir ("$WORKSPACE") {
-                    sh "$WORKSPACE/Invoketaskcat.sh"
-                }
+               
             }
         }
       
