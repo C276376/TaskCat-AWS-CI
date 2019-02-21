@@ -12,8 +12,11 @@ pipeline {
         {
             steps
             {
-                sh "cd $WORKSPACE"
-                sh "Invoketaskcat.sh"
+                sh """
+                        sleep 20s/
+                        cd $WORKSPACE"/
+                        taskcat -c ci/taskcat.yml/
+                   """
             }
         }
            
