@@ -13,6 +13,7 @@ pipeline {
             steps
             {
                 sh "cd $WORKSPACE"
+                sh "Invoketaskcat.sh"
             }
         }
            
