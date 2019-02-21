@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout Code'){
             steps{
                 echo ( "Workspace = $WORKSPACE")
-                git url: 'git@github.com:EliLillyCo/EIP_gdm_aws_sandbox_rds.git'
+                git url: 'https://github.com/C276376/TaskCat-AWS-CI.git'
                 sh "sleep 10s"
             }
         }
